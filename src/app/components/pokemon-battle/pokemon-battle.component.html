@@ -1,0 +1,16 @@
+<div class="battle">
+    <app-pokemon
+      [name]="pokemon1.name"
+      [imageUrl]="pokemon1.imageUrl"
+      (attack)="attackPokemon2()">
+    </app-pokemon>
+    <p>Vida de {{ pokemon1.name }}: {{ pokemon1.health }}</p>
+  
+    <app-pokemon
+      [name]="pokemon2.name"
+      [imageUrl]="pokemon2.imageUrl"
+      (attack)="attackPokemon1()">
+    </app-pokemon>
+    <p>Vida de {{ pokemon2.name }}: {{ pokemon2.health }}</p>
+  </div>
+  

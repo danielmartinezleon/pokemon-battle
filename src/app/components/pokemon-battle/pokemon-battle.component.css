@@ -1,0 +1,14 @@
+.battle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .pokemon {
+    text-align: center;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
